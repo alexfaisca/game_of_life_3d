@@ -1,0 +1,22 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-ansi",
+      "-std=c11",
+      "-pedantic",
+      "-fopenmp",
+      "-ggdb",
+      "-O2",
+      "-I/usr/lib/x86_64-linux-gnu/openmpi/include",
+      "-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi",
+      "-o",
+      "life3d-mpi",
+      "life3d-mpi.c"
+    ],
+    "directory": "/home/alexandre/Documents/CPD/mpi",
+    "file": "/home/alexandre/Documents/CPD/mpi/life3d-mpi.c",
+    "output": "/home/alexandre/Documents/CPD/mpi/life3d-mpi"
+  }
+]
