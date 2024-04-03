@@ -1,0 +1,22 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-fopenmp",
+      "-ansi",
+      "-std=c11",
+      "-pedantic",
+      "-ggdb",
+      "-O2",
+      "-I/usr/lib/x86_64-linux-gnu/openmpi/include",
+      "-I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi",
+      "-o",
+      "life3d-hybrid",
+      "life3d-hybrid-mpi-omp.c"
+    ],
+    "directory": "/home/alexandre/Documents/CPD/openmp",
+    "file": "/home/alexandre/Documents/CPD/openmp/life3d-hybrid-mpi-omp.c",
+    "output": "/home/alexandre/Documents/CPD/openmp/life3d-hybrid"
+  }
+]
